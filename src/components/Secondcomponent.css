@@ -1,0 +1,19 @@
+.cont{
+    width: 450px;
+    height: 200px;
+    border: 3px solid aqua;
+    border-radius: 10px;
+    background-color: grey;
+}
+.cont button  {
+    width: 150px;
+    height: 35px;
+    border: 3px solid aqua;
+    background-color: darkslategray;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cont h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

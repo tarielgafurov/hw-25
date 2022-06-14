@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import { useSelector } from 'react-redux';
 import './App.css';
+import SecondComponent from './components/SecondComponent';
+import User from './components/user';
 
 function App() {
+  const a = useSelector(state=>state.user.isValid)
+  const setSecondComponent = useSelector(state => state.user.secondComponent)
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {a && <User/>}
+      {setSecondComponent && <SecondComponent/>}
     </div>
   );
 }

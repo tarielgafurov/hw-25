@@ -1,0 +1,78 @@
+/* .container{
+    width: 650px;
+    height: 450px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVr_-X2qFKRQZBbYDgrj_I1Frl4zQBJY07qQ&usqp=CAU');
+    border: 4px solid blueviolet;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: auto;
+}
+.mini-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.mini-container  input {
+    width: 350px;
+    height: 25px;
+    border: 3px solid aqua;
+    border-radius: 15px;
+    margin: 18px;
+    text-align: center;
+}
+.mini-container  input :hover{
+    color: chartreuse;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+
+.container {
+    border-radius: 10px;
+    width: 480px;
+    padding: 30px 0;
+    background: rgba(20, 40, 40, .8);
+    transition: .2s;
+    background: url(https://media.istockphoto.com/photos/abstract-radial-tech-urban-light-fractal-background-picture-id1363765578?b=1&k=20&m=1363765578&s=170667a&w=0&h=-P118dY5CTx3DDmsNoJ-iFkcyZBBJYfqKPidYmN17uY=);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+
+    box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, .5);
+}
+
+.mini-container h1{
+    color: white;
+    font-weight: 300;
+    font-family: 'Barlow';
+}
+.mini-container input {
+    margin: 15px 0;
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid rgba(10, 180, 180, 1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(20, 20, 20, .2);
+    color: white;
+    outline: none;
+}
+.mini-container button {
+    border: 1px solid rgba(10, 180, 180, 1);
+  background: rgba(20, 20, 20, .6);
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 50px;
+  cursor: pointer;
+  transition: .4s;
+
+}
+.mini-container button:hover{
+    
+        background: rgba(20, 20, 20, .8);
+        padding: 10px 80px;
+      
+}
